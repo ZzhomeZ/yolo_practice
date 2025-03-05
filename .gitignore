@@ -3,4 +3,4 @@ A.jpg
 runs/**
 .*
 !.gitignore
-yolov10n.pt
+*.pt
