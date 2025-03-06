@@ -1,6 +1,6 @@
 .env
 A.jpg
 runs/**
-.*
+.idea/
 !.gitignore
 *.pt
