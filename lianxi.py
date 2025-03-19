@@ -10,3 +10,6 @@ model = YOLO('yolov10n.pt')
 
 a = YOLO('runs/detect/train4/weights/best.pt')  # 使用训练好的模型
 a.predict('xun1/images/test', show=True, save=True)  # 检测文件夹中的图片
+
+# b = a.track('xun1/images/test/xxx.mp3', persist=True)   # 追踪视频中的目标
+# b.show()   # 显示追踪结果
